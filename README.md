@@ -10,9 +10,9 @@ Machine Learning Library: Scikit-Learn using supervised learning
 We will do this by using Pythons Pandas, matplotlib, and Tableau 
 
 Dataset Features: 
-Collection
-Budget
-Genre
-Language
-Original Title 
+Collection,
+Budget,
+Genre,
+Language,
+Original Title, 
 Overview 
