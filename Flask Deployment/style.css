@@ -1,12 +1,12 @@
 body {
-    background: #FFFAF0 ;
+    background: whitesmoke ;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 
 h1 {
  font-size: 80 px;  
  text-align: center;
- color: black; 
+ color: darkturquoise; 
  padding: 30px; 
 }
 
@@ -21,7 +21,7 @@ nav{
     position: fixed;
     top:0;
     width: 100%;
-    background-color:darkgoldenrod;
+    background-color:darkturquoise;
     height: auto;
     z-index: 2;
  }
@@ -32,15 +32,15 @@ nav{
     display: inline-block;
     text-align: center;
     padding: 14px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+    color: whitesmoke
+    text-decoration none;
     font-size: 17px;
     font-weight: bolder;
  }
 
  .dropbtn {
-    background-color: darkgoldenrod;
-    color: black;
+    background-color: darkturquoise;
+    color: whitesmoke;
     padding: 14px;
     overflow: auto;
     height: auto;
@@ -69,23 +69,23 @@ nav{
     display: block;
   }
  .links:hover {
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid turquoise;
  }
  .selected{
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid turquoise;
  }
 
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color:goldenrod;}
+.dropdown:hover .dropbtn {background-color:turquoise;}
 
 .sidenav {
    margin: 0;
    padding: 0;
    width: 200px;
-   background-color: darkslategray ;
+   background-color: darkturquoise ;
    position: fixed;
    height: 80%;
    top:50px;
@@ -94,19 +94,16 @@ nav{
  
  .sidenav a {
    display: block;
-   color: black;
+   color: whitesmoke;
    padding: 16px;
    text-decoration: none;
  }
 
  .sidenav a.active {
-   background-color: #293992;
+   background-color: darkturquoise;
    color: white;
- 
- /* When you mouse over the navigation links, change their color */
- .sidenav a:hover {
-   color:steelblue;
  }
+
  
  @media screen and (max-width: 700px) {
    .sidenav {
@@ -126,16 +123,6 @@ nav{
      float: none;
    }
  }
-
- .center {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 30%;
- }
-
- div.content {
-   margin-left: 200px;
-   padding: 1px 16px;
-   height: 1000px;
- }
+ .nav-link {
+  color: whitesmoke;
+}
