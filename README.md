@@ -1,7 +1,7 @@
 # Predicting Box Office Revenue
 For our machine learning project, we will be predicting, analyzing, and visualizing movie box office revenue totals based on a number of different attributes. 
-Dataset Source: https://www.kaggle.com/c/tmdb-box-office-prediction/data 
-
+#Dataset Source: https://www.kaggle.com/  tmdb-box-office-prediction/data 
+#AWS Loading: s3://boxofficepredictions/Merged_Frames.csv
 
 We will then clean and preprocess the data and apply machine learning models to predict and visualize the accuracy of the model and will present our findings through a public tableau dashboard.
 
@@ -16,4 +16,4 @@ Genre,
 Language,
 Original Title, 
 Overview 
-AWS Loading: s3://boxofficepredictions/Merged_Frames.csv
+
