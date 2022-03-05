@@ -12,3 +12,4 @@ def home():
 def generate():
    print ('Hello World!')
    return render_template('index.html')
+
