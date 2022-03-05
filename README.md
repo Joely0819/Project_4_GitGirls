@@ -22,3 +22,16 @@ Overview
 
 # Deployment
 Deploy HTML using app.py via FLASK
+
+# Navigating our Folders and Final Conclusion
+All of the machine learning preparation and model creation we carried out in the Notebook Folder.
+- The TMDB_API_PULL.ipynb contains our api pull code where we merged the data frames, we then exported the merged frame to place in our AWS Bucket. 
+- The Processing_and_Models.ipynb is the notebook that contains all data preprocessing (including normalization and hyperparameter tunining) as well as model creation. 
+    - The model we eneded up deciding on was RandomForestRegressor. After Normalizing the data, this model produced a 
+# Training Score of 0.95 and a Testing Score of 0.73 
+   - To counteract the present overfitting issue we ran a randomized grid search to produce the best parameters
+   - After adding the parameters, we ran the model again and got 
+# Training Score: 0.6422128894515788 and a Testing Score: 0.6536014008701967
+- The Creating_Trees.ipynb contains the code used to create our Random Tree Regressor Graphics. 
+
+All of the .py, .html, and .css files are used to deploy a site (on a local host) to display our findings 
