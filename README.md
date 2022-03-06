@@ -37,7 +37,7 @@ Deploy HTML using app.py via FLASK
 All of the machine learning preparation and model creation we carried out in the Notebook Folder.
 - The TMDB_API_PULL.ipynb contains our api pull code where we merged the data frames, we then exported the merged frame to place in our AWS Bucket. 
 - The Processing_and_Models.ipynb is the notebook that contains all data preprocessing (including normalization and hyperparameter tunining) as well as model creation. 
-    - The model we eneded up deciding on was RandomForestRegressor. After Normalizing the data, this model produced a 
+    - The model we ended up deciding on was RandomForestRegressor. After Normalizing the data, this model produced the following:
 # Training Score of 0.95 and a Testing Score of 0.73 
    - To counteract the present overfitting issue we ran a randomized grid search to produce the best parameters
    - After adding the parameters, we ran the model again and got 
